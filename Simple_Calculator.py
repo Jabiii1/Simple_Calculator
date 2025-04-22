@@ -4,12 +4,15 @@ mainWindow = Tk()
 mainWindow.title("Simple Calculator")
 mainWindow.geometry("314x414")  
 mainWindow.configure(bg="lightblue")
+
+def inClick():
+    pass        
 # Screens for calcu
 screen = Entry(mainWindow, font=("Arial", 35),width=12, relief="ridge", justify="right").grid(column=1,row=1, sticky="nsew")
 screen2 = Entry(mainWindow, font=("Arial", 15),width=12, relief="ridge", justify="right").grid(column=1,row=2, sticky="nsew")
 
 
-# Button for calcu
+# Buttons for calcu
 
 #First Group
 erase = Button(mainWindow, text="⌫", font=("Arial", 20))
@@ -52,5 +55,7 @@ dot.place(x=40, y=279)
 
 equal = Button(mainWindow, text="=", width=12, font=("Arial", 20))
 equal.place(x=58, y=337)
+
+
 
 mainWindow.mainloop()
