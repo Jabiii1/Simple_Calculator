@@ -11,7 +11,8 @@ def inClick():
 screen = Entry(mainWindow, font=("Arial", 35),width=12, relief="ridge", justify="right").grid(column=1,row=1, sticky="nsew")
 screen2 = Entry(mainWindow, font=("Arial", 15),width=12, relief="ridge", justify="right").grid(column=1,row=2, sticky="nsew")
 
-
+icon = PhotoImage(file= "calc.png")    
+mainWindow.iconphoto(False, icon)
 # Buttons for calcu
 
 #First Group
