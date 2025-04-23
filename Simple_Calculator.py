@@ -5,8 +5,6 @@ mainWindow.title("Simple Calculator")
 mainWindow.geometry("314x414")  
 mainWindow.configure(bg="lightblue")
 
-def inClick():
-    pass        
 # Screens for calcu
 screen = Entry(mainWindow, font=("Arial", 35),width=12, relief="ridge", justify="right").grid(column=1,row=1, sticky="nsew")
 screen2 = Entry(mainWindow, font=("Arial", 15),width=12, relief="ridge", justify="right").grid(column=1,row=2, sticky="nsew")
@@ -22,7 +20,7 @@ nine = Button(mainWindow, text="9",width=3, font=("Arial", 20))
 nine.place(x=160, y=105)
 eight = Button(mainWindow, text="8",width=3, font=("Arial", 20))
 eight.place(x=100, y=105)
-seven = Button(mainWindow, text="7",width=3, font=("Arial", 20))
+seven = Button(mainWindow, text="7",width=3, font=("Arial", 20))        
 seven.place(x=40, y=105)
 
 # Second Goup
