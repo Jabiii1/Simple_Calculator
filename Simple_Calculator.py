@@ -2,9 +2,9 @@ from tkinter import *
 
 mainWindow = Tk()
 mainWindow.title("Simple Calculator")
-mainWindow.geometry("314x415")  
+mainWindow.geometry("314x415")      # I didn't center the window because if we use calculator mostly we drag it to side so it won't interfere with other tasks
 mainWindow.resizable(False, False) 
-mainWindow.configure(bg="black")  #Backgorund color (i choose this because its more darker than the hex colors)
+mainWindow.configure(bg="black")    # Backgorund color (i choose this because its more darker than the hex colors)
 
 # Whthis function is when you click the buttons it will show in the Entry
 def Inclick(value):
